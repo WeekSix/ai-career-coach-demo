@@ -70,7 +70,7 @@ if os.path.isdir(prompt_dir):
     KNOWLEDGE_BASE = "".join(parts)
 
 # Avatar settings
-ASSISTANT_AVATAR = os.path.join(os.path.dirname(__file__), "..", "career_agent_profile_pic.png")
+ASSISTANT_AVATAR = os.path.join(os.path.dirname(__file__), ".", "career_agent_profile_pic.png")
 USER_AVATAR = "👤"
 
 # Initialize chat history
